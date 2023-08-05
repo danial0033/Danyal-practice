@@ -1,0 +1,12 @@
+.color1{
+    color: red;
+}
+.color2{
+    color:rgb(255,0,0);
+}
+.color3{
+    color:#ff0000;
+}
+.color4{
+    color:hsl(0, 100%, 50%);
+}
