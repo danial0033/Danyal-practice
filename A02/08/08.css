@@ -1,0 +1,33 @@
+.col1{
+    border: 2px solid rgb(0, 173, 35);
+    margin-right: 1200px;
+    padding: 10px;
+}
+.col2{
+    border: 2px solid rgb(0, 173, 35);
+    margin-right: 1200px;
+    padding: 10px;
+    background-color: rgb(0, 173, 35);
+}
+.col3{
+    border: 2px solid rgb(0, 173, 35);
+    margin-right: 1270px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(0, 173, 35);
+
+}
+.col4{
+    border: 2px solid rgb(0, 173, 35);
+    margin-right: 1270px;
+    padding: 10px;
+    background-color: rgb(0, 173, 35);
+    border-radius: 25px 5px;
+}
+.col5{
+    border: 2px solid rgb(0, 173, 35);
+    margin-right: 1270px;
+    padding: 10px;
+    background-color: rgb(0, 173, 35);
+    border-radius: 25px 25px;
+}
