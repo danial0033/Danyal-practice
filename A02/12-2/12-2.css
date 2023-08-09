@@ -1,0 +1,36 @@
+.colorname{
+    width: 500px;
+    height: 60px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding-bottom:0px 20px 40px;
+    margin-left: 450px;
+    text-align: center;
+}
+.RGB{
+    width: 500px;
+    height: 60px;
+    background-color: rgb(0, 255, 255);
+    border: 2px dotted rgb(0, 81, 255);
+    padding-bottom: 0px 20px 40px;
+    margin-left: 450px;
+    text-align: center;
+}
+.HEX{
+    width: 500px;
+    height: 60px;
+    background-color: #fffb00;
+    border: 2px solid #ff8800;
+    padding-bottom: 0px 20px 40px;
+    margin-left: 450px;
+    text-align: center;
+}
+.HSl{
+    width: 500px;
+    height: 60px;
+    background-color: hsl(278, 100%, 75%);
+    border: 2px dotted hsl(278, 100%, 50%);
+    padding-bottom: 0px 20px 40px;
+    margin-left: 450px;
+    text-align: center;
+}
