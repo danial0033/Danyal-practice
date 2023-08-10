@@ -1,23 +1,23 @@
-p{
+.colorbox{
     width: 500px;
     height: 50px;
     background-color: hsla(219, 100%, 50%, 0.89);
-    border-left-style: solid;
-    border-left-color:blueviolet;
-    border-left-width: 5px;
+    border-left:5px solid blueviolet;
     padding:20px;
     border-radius: 10px;
     margin: 20px 5px;   
     text-align: center;
     color: white;
 }
-img{
+.image{
     width: 540px;
     height: 100px;
-    border-left-style: solid;
-    border-left-color:green;
-    border-left-width: 5px;
+    border-left:5px solid green;
     border-radius: 10px;
     margin: 30px 5px;
-
+}
+.image{
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
 }
