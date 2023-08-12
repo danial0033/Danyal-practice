@@ -1,0 +1,25 @@
+.text{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 70px;
+    margin-top: 65px;
+    margin-bottom: 6px;
+    background-clip:content-box;
+}
+
+
+body{
+    background-image: url("image/25563.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.button{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 630px;
+    margin-top: 80px;
+}
