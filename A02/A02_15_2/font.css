@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+.text1{
+    font:25px Arial, sans-serif;
+    width: 100vw;
+    height: 30vh;
+    border: 5px solid red;
+}
+.matne1{
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+.titr1{
+    text-align: center;
+}
+.text2{
+    width: 100vw;
+    height: 30vh;
+    border: 5px dashed green;
+    font: 1.56em 'Fauna One', serif;
+}
+.titr2{
+    text-align: center; 
+    font: 1em 'Cinzel', serif;
+}
+.matne2{
+    font-variant: small-caps;
+    font-size: 20px;
+    font-style: oblique; 
+}
+.text3{
+    width: 100vw;
+    height: 30vh;
+    border: 7px double darkgoldenrod;
+    font: 1.56em 'Rubik', serif;
+}
+.titr3{
+    text-align: center;
+    font: 1.5em 'sofia', sans-serif;
+}
+.matne3{
+    font: normal small-caps 20px/10px;
+}
