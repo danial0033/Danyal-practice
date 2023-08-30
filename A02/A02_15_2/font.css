@@ -37,7 +37,8 @@ body{
 .titr3{
     text-align: center;
     font: 1.5em 'sofia', sans-serif;
+    font-weight: bold;
 }
 .matne3{
-    font: normal small-caps 20px/10px;
+    font: normal small-caps bold 20px/10px;
 }
