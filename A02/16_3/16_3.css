@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(255, 0, 0, 0.589);
+}
+ul{
+    font-family: 'Rubik Puddles';
+    font-size:25px;
+    color: white;
+}
+.continer{
+    text-align: center;
+}
+.boxtext{
+    background-color:rgba(0, 0, 0, 0.658);
+    display: inline-block;
+    width: 70vw;
+    height: 80vh;
+    border-radius: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+}
+h1{
+    text-shadow: 0px 0px 10px white;
+    color: blue;
+    font-family: 'Allura';
+    font-size: 45px
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    text-align: justify;
+    font-family: 'Amethysta';
+}
+span{
+    text-decoration: underline double blue;
+    color: aqua;
+}
