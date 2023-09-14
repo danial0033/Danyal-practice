@@ -1,0 +1,59 @@
+body{
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0;
+
+}
+
+.image{
+    background-image: url("image/sherlock\ holmes.jfif");
+    background-size: cover;
+    background-position: center;
+    width: 22vw;
+    height: 24vh;
+    margin: 0 auto ;
+    margin-top: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    padding: 0;
+}
+.image:hover{
+    background-image: url("image/p10406404_b_h10_aa.jpg");
+}
+.text{
+    width: 22%;
+    height: 150px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    margin: 0 auto;
+}
+.text:hover{
+    background-color: rgba(255, 255, 255, 0.404);
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.bot{
+    width: 22vw;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0;
+    font-size: 25px;
+}
+.bot:hover{
+    font-family: 'Amita';
+    color: pink;
+}
+.bot:active{
+    background-color: yellow;
+    color: brown;
+}
