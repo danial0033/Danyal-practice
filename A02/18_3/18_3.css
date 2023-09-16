@@ -1,0 +1,11 @@
+body{
+    margin-top: 30px;
+}
+.home{
+    background-color: grey;
+    width: 9vw;
+    height: 4vh;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
