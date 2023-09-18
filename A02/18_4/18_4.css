@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.box{
+    width: 23vw;
+    height: 67vh;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    font-family: 'Akaya Kanadaka';
+    margin-top: 40px;
+}
+.box:hover{
+    background-color: aqua;
+}
+.box:hover{
+    color: orangered;
+}
+.titre{
+     text-align: center;
+     font-size: 40px;
+     color: darkgray;
+}
+.matne{
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    text-align:justify;
+    line-height: 25px;
+}
+.docmeh{
+    text-align: center;
+    display: inline-block;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.docmeh:hover{
+    background-color: brown;
+    color: white;
+}

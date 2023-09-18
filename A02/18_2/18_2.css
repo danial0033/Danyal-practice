@@ -50,8 +50,8 @@ h1{
     font-size: 25px;
 }
 .bot:hover{
-    font-family: 'Amita';
     color: pink;
+    background-color: darkblue;
 }
 .bot:active{
     background-color: yellow;
