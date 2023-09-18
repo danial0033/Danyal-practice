@@ -17,6 +17,9 @@ body{
 .box:hover{
     color: orangered;
 }
+.box:hover .titre{
+    color: black;
+}
 .titre{
      text-align: center;
      font-size: 40px;
