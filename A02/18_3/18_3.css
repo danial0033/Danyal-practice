@@ -2,7 +2,7 @@ body{
     margin-top: 30px;
     background-color: darkgray;
 }
-.home{
+.botton{
     background-color: grey;
     width: 9vw;
     height: 4vh;
@@ -12,16 +12,16 @@ body{
     color: white;
     font-family: "Open Sans";
 }
-.home:hover{
+.botton:hover{
     background-color: aqua;
 }
-.home:hover i{
+.botton:hover i{
     color: black;
 }
-.home:active{
+.botton:active{
     background-color: blue;
 }
-.home:active i{
+.botton:active i{
     color: white;
 }
 i{
