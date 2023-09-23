@@ -12,7 +12,7 @@ body{
     margin-top: 40px;
 }
 .box:hover{
-    background-color: aqua;
+    background-image:linear-gradient(to top, darkblue , green);
 }
 .box:hover{
     color: orangered;
@@ -41,6 +41,6 @@ body{
     border: 1px solid black;
 }
 .docmeh:hover{
-    background-color: brown;
+    background-image: linear-gradient(to right, yellow , red);
     color: white;
 }
