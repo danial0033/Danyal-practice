@@ -1,17 +1,31 @@
 body{
-    background-image: linear-gradient(to right, grey , rgba(23, 0, 124, 0.842));
+    background-image: linear-gradient(to right, rgb(172, 170, 170) , rgba(23, 0, 124, 0.842));
 } 
 .box{
     width: 300px;
-    height: 400px;
+    height: 420px;
     border: 2px solid white;
     margin: 0 auto;
     margin-top: 30px;
+    word-spacing: 10px;
 }
 .box:hover{
     background-image: linear-gradient(to right, aqua , rgba(9, 9, 255, 0.952));
 }
-
+.box:hover .icon{
+    display: none;
+}
+.box:hover .matne{
+    font-size: 18px;
+    padding: 25px;
+    font-family: 'ABeeZee';
+    color: white;
+}
+.box:hover .titre{
+    color: darkblue;
+    font-size: 80px;
+    font-weight: 100;
+}
 .titre{
     font-family: 'Dancing Script';
     color: aqua;
@@ -19,7 +33,10 @@ body{
     text-align: center;
     font-size: 55px;
 }
-span{
+.matne{
+    font-size: 0;
+}
+.icon{
     color: orangered;
 }
 
