@@ -1,0 +1,33 @@
+ body{
+    background-image: linear-gradient(to right, darkblue , rgb(27, 27, 94));
+ }
+ .box{
+    width: 260px;
+    height: 210px;
+    border: 2px solid white;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, blueviolet ,red);
+ }
+ .box:hover{
+    height: 500px;
+ }
+.box:hover .matne{
+    font-family: 'Arizonia';
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+    line-height: 1.6; 
+    font-weight: 600;
+    word-spacing: 10px;
+}
+ .titre{
+    font-family: 'Abel';
+    margin:0;
+    text-align: center;
+    color: grey;
+}
+ .matne{
+    font-size: 0;
+}
