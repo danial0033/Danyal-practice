@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(rgb(202, 201, 201),rgb(91, 91, 248));
+    height: 100vh;
+} 
+.box{
+    width: 300px;
+    height: 450px;
+    border: 2px solid white;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.box:hover .titre{
+    text-align: left;
+    color: black;
+    padding-top: 20px;
+}
+.box:hover .matne{
+    font-size: 18px;
+    font-family: 'Aguafina Script';
+    color: white;
+    text-align: justify;
+    padding-top: 20px;
+}
+.box:hover .text{
+    background-image: linear-gradient(rgba(0, 255, 255, 0.658),rgba(0, 255, 255, 0.096));
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.box:hover .docmeh{
+    width: 70px;
+    height: 25px;
+    opacity: 1;
+    text-decoration: none;
+    border: 2px solid black;
+    margin-left: 75px;
+    background-color: aquamarine;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.image{
+    background-image: url(images/mountain.jpg);
+    width: 300px;
+    height: 450px;
+}
+.titre{
+    color:aqua;
+    text-align: center;
+    font-family: 'ABeeZee';
+    font-weight: 100;
+    margin: 0;
+    padding-top: 100px;
+}
+.matne{
+    font-size: 0;
+}
+.docmeh{
+    opacity: 0;
+    color: white;
+}
+.docmeh:hover{
+    color: black;
+}
