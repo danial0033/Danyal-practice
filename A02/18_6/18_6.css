@@ -1,3 +1,7 @@
+ *{
+   margin: 0;
+   padding: 0;
+ }
  body{
     background-image: linear-gradient(to right, darkblue , rgb(27, 27, 94));
  }
@@ -10,8 +14,9 @@
     background-image: linear-gradient(to right, blueviolet ,red);
  }
  .box:hover{
-    height: 500px;
-   transition: height 2s;
+   height: 480px;
+   transition-property: height;
+   transition-duration: 4s;
  }
 .box:hover .matne{
     font-family: 'Arizonia';
@@ -31,4 +36,5 @@
 }
  .matne{
     font-size: 0;
+    transition-duration: 3s;
 }
