@@ -16,7 +16,7 @@
  .box:hover{
    height: 480px;
    transition-property: height;
-   transition-duration: 4s;
+   transition-duration: 2s;
  }
 .box:hover .matne{
     font-family: 'Arizonia';
