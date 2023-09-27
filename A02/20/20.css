@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(0, 146, 139), rgb(83, 51, 131));
+    text-align: center;
+    padding-top: 20px;
+}
+table{
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    word-spacing: 10px;
+}
+th{
+    width: 130px;
+    height: 50px;
+    background-color: rgba(2, 2, 255, 0.479);
+    color: white;
+}
+td{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(206, 206, 206, 0.24);
+    text-align: center;
+    color: white;
+}
+td:hover{
+    background-image: linear-gradient(rgb(0, 132, 255), rgb(58, 29, 85));
+}
+
+
