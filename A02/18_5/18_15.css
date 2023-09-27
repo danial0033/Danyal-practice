@@ -12,8 +12,8 @@ body{
 .box:hover{
     background-image: linear-gradient(to right, aqua , rgba(9, 9, 255, 0.952));
 }
-.box:hover .icon{
-    display: none;
+.box:hover span{
+    font-size: 0;
 }
 .box:hover .matne{
     font-size: 18px;
@@ -36,7 +36,9 @@ body{
 .matne{
     font-size: 0;
 }
-.icon{
+span{
     color: orangered;
+    font-size: 280px;
+    padding-left: 10px;
 }
 
