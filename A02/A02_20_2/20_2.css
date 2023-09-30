@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#849B5C,#BFFFC7);
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'sofia';
+    padding: 30px;
+    margin-bottom: 30px;
+}
+table{
+    margin: 0 auto;
+    background-image: linear-gradient(#50D5B7,#067D68);
+    font-size: large;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+th{
+    width: 43px;
+    height: 80px;
+    text-align: left;
+}
+.t1{
+    text-align: left;
+    width: 240px;
+    padding-left: 10px;
+}
+td{
+    height: 40px;
+    font-size:17px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+i{
+    font-size: 25px;
+    color: white ;
+}
+.row1 i{
+    color: red;
+}
+.row1:hover{
+    background-image: linear-gradient(rgb(175, 24, 24),rgb(252, 97, 70));
+}
+.row2 i {
+    color: blue;
+}
+.row2:hover{
+    background-image: linear-gradient(blue,aqua);
+}
+.row3 i{
+    color: greenyellow;
+}
+.row3:hover{
+    background-image: linear-gradient(greenyellow,green)
+}
+.row4 i{
+    color: orange;
+}
+.row4:hover{
+    background-image: linear-gradient(orange,orangered)
+}
+.row5 i{
+    color: yellow;
+}
+.row5:hover{
+    background-image: linear-gradient(yellow,rgb(165, 165, 0))
+}
+.row6 i{
+    color: darkcyan;
+}
+.row6:hover{
+    background-image: linear-gradient(darkcyan,darkblue)
+}
+.row7 i{
+    color: green;
+}
+.row7:hover{
+    background-image: linear-gradient(green,darkgreen)
+}
+.row8 i{
+    color:  rgb(1, 1, 165);
+}
+.row8:hover{
+    background-image: linear-gradient(rgb(1,1,165), rgb(79, 79, 243))
+}
+.row9 i{
+    color: rgb(168, 0, 0);
+}
+.row9:hover{
+    background-image: linear-gradient(rgb(165,0,0), tomato)
+}
+.row10 i{
+    color: blueviolet;
+}
+.row10:hover{
+    background-image: linear-gradient(blueviolet, rgb(177, 118, 231));
+}
+.row11 i{
+    color: orangered;
+}
+.row11:hover{
+    background-image: linear-gradient(orangered, orange);
+}
+.row12 i{
+    color: rgb(255, 255, 62);
+}
+.row12:hover{
+    background-image: linear-gradient(rgb(255,255,62),rgb(112, 112, 3))
+}
