@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(0, 146, 139), rgb(83, 51, 131));
+    text-align: center;
+    padding-top: 20px;
+}
+.continer:hover table{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    visibility: visible;
+}
+.continer:hover .title{
+    visibility: visible;
+}
+table{
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table:hover td{
+    visibility: visible;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    word-spacing: 10px;
+    visibility: hidden;
+}
+th{
+    width: 130px;
+    height: 50px;
+    background-color: rgba(2, 2, 255, 0.479);
+    color: white;
+}
+td{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(206, 206, 206, 0.24);
+    text-align: center;
+    color: white;
+    visibility: collapse;
+}
+td:hover{
+    background-image: linear-gradient(rgb(0, 132, 255), rgb(58, 29, 85));
+}
