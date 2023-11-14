@@ -1,0 +1,25 @@
+body{
+    background-image: url("image/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    background-image: url("image/daymountainl\ .jpg");
+    border-radius: 50% 50%;
+    background-position: center;
+    margin-left: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+h4{
+    text-align: center;
+    color: white;
+}

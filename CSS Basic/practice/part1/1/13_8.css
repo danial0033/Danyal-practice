@@ -1,0 +1,29 @@
+body{
+    background-image: url("image/53931.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.t1{
+    color: white;
+    width: 25vw;
+    height: 25vh;
+    display:inline-block;
+    font-size: 50px;
+    font-family:monospace;
+    text-align: left;
+    margin-top: 110px;
+}
+.t2{
+    font-size: 35px;
+}
+button{
+    background-color: rgb(255, 145, 0);
+    width: 11vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: 2px solid white;
+    margin-top: 70px;
+}

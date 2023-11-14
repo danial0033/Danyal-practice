@@ -1,0 +1,34 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    margin: 0;
+}
+.imagebg{
+    background-image: url("image/back-ocean.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:45vw;
+    height: 100vh;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+.image{
+    background-image: url("image/ocean.jpg");
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 40px;
+
+    
+}
+.border{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 100vh;
+    color: white;
+    margin: 0 170px;
+    font-size: 13px;
+    backdrop-filter: blur(10px);
+}
