@@ -16,27 +16,100 @@ body{
     margin-top: 20px;
     display: inline-block;
 }
-.continer{
-    height: 100%;
-    background-size: cover;
-}
-.box1, .box2, .box3 {
+.box1_section1, .box2_section1, .box3_section1 {
     background-image: url('images/sea.jpg');
 }
-.box1{
+.box1_section1{
+    width: 17%;
+    height: 60%;
+    display:inline-block;
+    background-size: 600px;
+    background-position: left bottom;
+}
+.box2_section1{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    background-size: 600px;
+    background-position: center;
+}
+.box3_section1{
+    width: 12%;
+    height: 50%;
+    display: inline-block;
+    margin-bottom: 80px;
+    background-position: right;
+    background-size: 600px;
+}
+.section2{
     width: 90%;
-    height: 30%;
-    display:block;
-    margin-bottom: 5px;
-}
-.box2{
-    width: 40%;
-    height: 15%;
-    margin: 0 auto;
-    display: inline-block;
-}
-.box3{
-    width: 80%;
     height: 45%;
+    border: 1px solid white;
+    margin-top: 20px;
     display: inline-block;
+    text-align: left;
+}
+.box1_section2,.box2_section2,.box3_section2{
+    background-image: url("images/boat.jpg");
+}
+.box1_section2{
+    width: 35%;
+    height: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    background-position: left bottom;
+    background-size: 790px;
+}
+.box2_section2{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid white;
+    background-position: center bottom;
+    background-size: 900px;
+}
+.box3_section2{
+    width: 33%;
+    height: 70%;
+    border: 1px solid white;
+    display: inline-block;
+    background-position:bottom right;
+    background-size: 900px
+}
+.section3{
+    width: 90%;
+    height: 45%;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.box1_section3{
+    width: 15%;
+    height: 91%;
+    border: 1px solid white;
+    display: inline-block;
+    background-image: url("images/cat.jpg");
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box1_section3:hover{
+    background-image: url("images/dog.jpg");
+    font-size: 0;
+}
+.box1_section3:hover .title2{
+    font-size: x-large;
+    color: red;
+    font-weight: 100;
+}
+.title1{
+    text-align: center;
+    color: white;
+    padding-top: 120px;    
+}
+.title2{
+    font-size: 0;
 }
